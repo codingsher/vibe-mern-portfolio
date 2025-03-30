@@ -2,7 +2,7 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "buildCommand": "cd frontend && chmod +x vercel-build.sh && ./vercel-build.sh",
+  "buildCommand": "cd frontend && npm install && npm install -g typescript && npm run build",
   "outputDirectory": "frontend/dist",
   "framework": "vite",
   "github": {

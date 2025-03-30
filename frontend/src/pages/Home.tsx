@@ -158,37 +158,37 @@ const Home = () => {
 const skills = [
   {
     name: 'Backend Development',
-    description: 'Node.js, Express, Fastify, NestJS',
+    description: 'Flask, Django, FastAPI, Golang',
     icon: '⚙️'
   },
   {
     name: 'API Development',
-    description: 'RESTful APIs, GraphQL, WebSockets',
+    description: 'RESTful APIs, GraphQL, gRPC, Protocol Buffers',
     icon: '🔌'
   },
   {
     name: 'Database',
-    description: 'MongoDB, PostgreSQL, Redis, MySQL',
+    description: 'PostgreSQL, TimescaleDB, SQLAlchemy, Redis',
     icon: '🗄️'
   },
   {
     name: 'Authentication',
-    description: 'JWT, OAuth2, Passport.js, Role-based Access',
+    description: 'JWT, OAuth2, SAML, Role-based Access Control',
     icon: '🔐'
   },
   {
     name: 'DevOps',
-    description: 'Docker, AWS, CI/CD, Kubernetes',
+    description: 'Docker, Kubernetes, AWS, GitLab CI/CD',
     icon: '🚀'
   },
   {
     name: 'Server Management',
-    description: 'Nginx, PM2, Linux, Cloud Services',
+    description: 'Nginx, Gunicorn, Linux, Cloud Services',
     icon: '🖥️'
   },
   {
     name: 'Testing',
-    description: 'Jest, Mocha, Chai, Supertest',
+    description: 'Pytest, unittest, Mock, Postman',
     icon: '🧪'
   },
   {

@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
               Sher Shah Suri
             </Link>
             <p className="text-gray-600 dark:text-gray-400 mt-2 mb-4">
-              A backend developer specializing in Node.js, Express, and MongoDB.
+              A backend developer specializing in Flask, Django, Golang, and PostgreSQL.
               Showcasing my projects, API development experience, and server-side expertise.
             </p>
             

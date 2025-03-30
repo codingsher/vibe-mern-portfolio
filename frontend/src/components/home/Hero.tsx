@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
             className="text-gray-600 dark:text-gray-400 text-lg mb-10 max-w-2xl"
             variants={itemVariants}
           >
-            I specialize in building robust, scalable backend systems with Node.js, Express, MongoDB, and other server technologies.
+            I specialize in building robust, scalable backend systems with Flask, Django, Golang, PostgreSQL, and other server technologies.
             Passionate about creating efficient APIs, optimizing database performance, and implementing secure authentication systems.
           </motion.p>
           

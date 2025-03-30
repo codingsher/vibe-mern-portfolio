@@ -32,7 +32,7 @@ const About = () => {
             <div className="mt-16 bg-white dark:bg-secondary p-8 rounded-xl shadow-lg">
               <h3 className="text-2xl font-bold mb-4 text-secondary dark:text-light">About Me</h3>
               <p className="text-gray-600 dark:text-gray-400 mb-6">
-                I'm a passionate backend developer focusing on building robust and scalable server-side applications. I enjoy working with Python, Node.js, and various database technologies to create efficient backend systems.
+                I'm a passionate backend developer focusing on building robust and scalable server-side applications. I enjoy working with Python (Flask, Django), Golang, and PostgreSQL to create efficient backend systems with high performance and reliability.
               </p>
               <div className="flex space-x-4">
                 <Link to="/contact" className="btn btn-primary">Hire Me</Link>
@@ -126,22 +126,22 @@ const ProjectItem: React.FC<ProjectItemProps> = ({ title, technologies, githubLi
 const ProjectsTab = () => (
   <div>
     <ProjectItem
-      title="Auto Mail Replier"
-      technologies="Python, OpenAI API, Gmail API"
-      githubLink="https://github.com/codingsher/auto-mail-replier"
-      description="Automated email response system using OpenAI/ChatGPT and Python. The application monitors Gmail inbox and automatically replies to emails based on custom filters and prompts."
+      title="Auto Mail Reply"
+      technologies="Python, Flask, LLAMA3 AI"
+      githubLink="https://github.com/codingsher/Auto_Mail_Reply"
+      description="A Python/Flask application that fetches unread emails from Google Account and uses integrated LLAMA3 AI model to generate suitable responses. Features efficient email processing with background workers."
     />
     <ProjectItem
       title="Car Rental System"
-      technologies="Python, File Handling, OOP"
-      githubLink="https://github.com/codingsher/car-rental-system"
-      description="A Python-based car rental management system with features for managing cars, customers, transactions, and staff roles. Implements file-based storage and role-specific interfaces."
+      technologies="C++, Object-Oriented Design"
+      githubLink="https://github.com/codingsher/car_rental_system"
+      description="A C++ console application for car rental management that I built when I started my programming journey. Features basic rental operations and file-based data storage."
     />
     <ProjectItem
       title="CalDAV Calendar"
-      technologies="JavaScript, CalDAV Protocol, HTML, CSS"
-      githubLink="https://github.com/codingsher/caldav-calendar"
-      description="A CalDAV-compatible calendar application that synchronizes with standard calendar protocols. Features event management, reminders, and integration with popular calendar services."
+      technologies="Python, Django, PostgreSQL"
+      githubLink="https://github.com/codingsher/CalDAV_Calendar"
+      description="A Python/Django-based calendar application that implements the CalDAV protocol (RFC4791) for synchronizing calendars across devices. Uses PostgreSQL for efficient event storage and retrieval."
     />
   </div>
 );
@@ -152,28 +152,28 @@ const SkillsTab = () => {
     {
       name: 'Backend Technologies',
       skills: [
-        { name: 'Python', level: 90 },
-        { name: 'Node.js', level: 85 },
-        { name: 'Express', level: 80 },
-        { name: 'RESTful APIs', level: 85 },
+        { name: 'Python', level: 95 },
+        { name: 'Django', level: 90 },
+        { name: 'Flask', level: 88 },
+        { name: 'Golang', level: 85 },
       ],
     },
     {
       name: 'Databases',
       skills: [
-        { name: 'MongoDB', level: 80 },
-        { name: 'PostgreSQL', level: 75 },
-        { name: 'MySQL', level: 85 },
-        { name: 'Redis', level: 70 },
+        { name: 'PostgreSQL', level: 92 },
+        { name: 'SQLAlchemy', level: 85 },
+        { name: 'TimescaleDB', level: 80 },
+        { name: 'Redis', level: 75 },
       ],
     },
     {
       name: 'Tools & Other',
       skills: [
         { name: 'Git/GitHub', level: 90 },
-        { name: 'Docker', level: 75 },
-        { name: 'API Integration', level: 85 },
-        { name: 'Problem Solving', level: 90 },
+        { name: 'Docker/Kubernetes', level: 85 },
+        { name: 'RESTful APIs', level: 92 },
+        { name: 'gRPC', level: 80 },
       ],
     },
   ];
