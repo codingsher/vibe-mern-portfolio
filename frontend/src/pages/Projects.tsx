@@ -66,8 +66,8 @@ const Projects = () => {
           {
             _id: '4',
             title: 'RESTful API Service',
-            description: 'A comprehensive backend API service built with Node.js and Express. Features include authentication, data validation, and integration with MongoDB database.',
-            technologies: ['Node.js', 'Express', 'MongoDB', 'JWT Authentication'],
+            description: 'A comprehensive backend API service built with Flask and PostgreSQL. Features include authentication, data validation, and integration with relational databases.',
+            technologies: ['Python', 'Flask', 'PostgreSQL', 'JWT Authentication'],
             imageUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
             demoUrl: 'https://github.com/codingsher/rest-api-service',
             repoUrl: 'https://github.com/codingsher/rest-api-service',
@@ -77,8 +77,8 @@ const Projects = () => {
           {
             _id: '5',
             title: 'Database Migration Tool',
-            description: 'A utility for migrating data between different database systems. Supports MySQL, PostgreSQL, and MongoDB with automated schema conversion.',
-            technologies: ['Python', 'SQL', 'MongoDB', 'Data Processing'],
+            description: 'A utility for migrating data between different database systems. Supports MySQL, PostgreSQL, and TimescaleDB with automated schema conversion.',
+            technologies: ['Python', 'SQL', 'PostgreSQL', 'Data Processing'],
             imageUrl: 'https://images.unsplash.com/photo-1544383835-bda2bc66a55d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1456&q=80',
             demoUrl: 'https://github.com/codingsher/db-migration-tool',
             repoUrl: 'https://github.com/codingsher/db-migration-tool',

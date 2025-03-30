@@ -68,7 +68,7 @@ const Header: React.FC = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
             onClick={toggleDarkMode}
-            className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-secondary dark:text-light"
+            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-secondary dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-300"
             aria-label="Toggle dark mode"
           >
             {isDarkMode ? <FiSun size={20} /> : <FiMoon size={20} />}
@@ -81,7 +81,7 @@ const Header: React.FC = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
             onClick={toggleDarkMode}
-            className="p-2 mr-2 rounded-full bg-gray-100 dark:bg-gray-800 text-secondary dark:text-light"
+            className="p-2 mr-2 rounded-full bg-gray-200 dark:bg-gray-700 text-secondary dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-300"
             aria-label="Toggle dark mode"
           >
             {isDarkMode ? <FiSun size={20} /> : <FiMoon size={20} />}

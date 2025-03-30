@@ -28,7 +28,7 @@ const ProjectDetail = () => {
             _id: id,
             title: 'Sample Project',
             description: 'This is a placeholder project description. The actual project data could not be fetched from the server.',
-            technologies: ['React', 'Node.js', 'MongoDB'],
+            technologies: ['React', 'Python', 'Django', 'PostgreSQL'],
             imageUrl: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
             demoUrl: 'https://example.com',
             repoUrl: 'https://github.com',
