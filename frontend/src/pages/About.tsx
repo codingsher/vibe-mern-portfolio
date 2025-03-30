@@ -19,7 +19,7 @@ const About = () => {
             <div className="relative">
               <div className="w-full h-[500px] rounded-xl overflow-hidden shadow-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?q=80&w=1534&auto=format&fit=crop" 
+                  src="https://media-mct1-1.cdn.whatsapp.net/v/t61.24694-24/483532718_638414305471423_2044781995896674639_n.jpg?ccb=11-4&oh=01_Q5AaITz-JfdZLlzPjuuolwHevv9Q55K1zbjhilVzU-P82fZ5&oe=67F5AA70&_nc_sid=5e03e0&_nc_cat=105" 
                   alt="Sher Shah Suri" 
                   className="w-full h-full object-cover"
                 />
